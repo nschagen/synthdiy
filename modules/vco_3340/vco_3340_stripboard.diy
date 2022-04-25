@@ -1136,24 +1136,6 @@
       <view>ShaftDown</view>
     </diylc.passive.PotentiometerPanel>
     <diylc.connectivity.HookupWire>
-      <name>W14</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="7.3" y="4.0"/>
-        <point x="7.0" y="4.0"/>
-        <point x="6.6" y="4.0"/>
-        <point x="6.2" y="4.1"/>
-      </controlPoints2>
-      <color hex="00ff00"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
-    <diylc.connectivity.HookupWire>
       <name>W15</name>
       <alpha>127</alpha>
       <controlPoints2>
@@ -1175,10 +1157,10 @@
       <name>W16</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="6.2" y="4.5"/>
-        <point x="6.6" y="4.6"/>
-        <point x="6.9" y="4.7"/>
-        <point x="7.3" y="4.6"/>
+        <point x="8.3" y="4.8"/>
+        <point x="6.9" y="4.8"/>
+        <point x="6.9" y="4.6"/>
+        <point x="7.3" y="4.0"/>
       </controlPoints2>
       <color hex="00ff00"/>
       <pointCount>FOUR</pointCount>
@@ -1607,24 +1589,6 @@
       <orientation>DEFAULT</orientation>
       <value></value>
     </diylc.electromechanical.ClosedJack1__4>
-    <diylc.connectivity.HookupWire>
-      <name>W23</name>
-      <alpha>127</alpha>
-      <controlPoints2>
-        <point x="8.3" y="4.8"/>
-        <point x="7.7" y="4.8"/>
-        <point x="6.9" y="4.8"/>
-        <point x="6.5" y="4.7"/>
-      </controlPoints2>
-      <color hex="00ff00"/>
-      <pointCount>FOUR</pointCount>
-      <style>SOLID</style>
-      <smooth>true</smooth>
-      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
-      <gauge>_22</gauge>
-      <striped>false</striped>
-      <stripeColor hex="ffff00"/>
-    </diylc.connectivity.HookupWire>
     <diylc.passive.PotentiometerPanel>
       <name>PW</name>
       <alpha>127</alpha>
@@ -1942,6 +1906,71 @@
       <colorCode>NONE</colorCode>
       <shape>Standard</shape>
     </diylc.passive.Resistor>
+    <diylc.passive.Resistor>
+      <name>R6</name>
+      <alpha>59</alpha>
+      <length value="8.0" unit="mm"/>
+      <width value="3.0" unit="mm"/>
+      <points>
+        <point x="5.6" y="5.0"/>
+        <point x="5.9" y="4.4"/>
+        <point x="5.75" y="4.7"/>
+      </points>
+      <bodyColor hex="82cffd"/>
+      <borderColor hex="5b90b1"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>VALUE</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <value value="1.0" unit="M"/>
+      <power>HALF</power>
+      <colorCode>NONE</colorCode>
+      <shape>Standard</shape>
+    </diylc.passive.Resistor>
+    <diylc.passive.RadialCeramicDiskCapacitor>
+      <name>C2</name>
+      <alpha>127</alpha>
+      <length value="0.25" unit="in"/>
+      <width value="0.125" unit="in"/>
+      <points>
+        <point x="5.9" y="4.3"/>
+        <point x="6.1" y="4.4"/>
+        <point x="6.0" y="4.35"/>
+      </points>
+      <bodyColor hex="f0e68c"/>
+      <borderColor hex="a8a162"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="cccccc"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <pinSpacing value="0.1" unit="in"/>
+      <value value="100.0" unit="nF"/>
+      <voltage>_63V</voltage>
+    </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.connectivity.HookupWire>
+      <name>W1</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="7.3" y="4.6"/>
+        <point x="6.8" y="4.6"/>
+        <point x="6.4" y="4.6"/>
+        <point x="5.7" y="4.4"/>
+      </controlPoints2>
+      <color hex="000000"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
     <diylc.misc.WrapLabel>
       <name>L1</name>
       <controlPoints>
