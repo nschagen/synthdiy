@@ -246,7 +246,7 @@
       <point x="5.5" y="5.2"/>
     </diylc.connectivity.TraceCut>
     <diylc.semiconductors.DIL__IC>
-      <name>IC1</name>
+      <name>LM13700</name>
       <alpha>71</alpha>
       <value></value>
       <orientation>DEFAULT</orientation>
@@ -1085,9 +1085,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.0" unit="mm"/>
       <points>
-        <point x="4.7" y="4.5"/>
+        <point x="4.7" y="4.4"/>
         <point x="4.7" y="2.9"/>
-        <point x="4.7" y="3.7"/>
+        <point x="4.7" y="3.65"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -1109,9 +1109,9 @@
       <length value="7.0" unit="mm"/>
       <width value="2.0" unit="mm"/>
       <points>
-        <point x="6.0" y="4.5"/>
-        <point x="6.0" y="4.3"/>
         <point x="6.0" y="4.4"/>
+        <point x="6.0" y="4.3"/>
+        <point x="6.0" y="4.3500000000000005"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
