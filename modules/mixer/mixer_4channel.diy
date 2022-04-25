@@ -18,10 +18,10 @@
       <value></value>
       <controlPoints>
         <point x="3.4" y="3.9"/>
-        <point x="6.0" y="4.9"/>
+        <point x="6.1" y="4.9"/>
       </controlPoints>
       <firstPoint x="3.4" y="3.9"/>
-      <secondPoint x="6.0" y="4.9"/>
+      <secondPoint x="6.1" y="4.9"/>
       <boardColor hex="f8ebb3"/>
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
@@ -301,9 +301,9 @@
       <name>J5</name>
       <alpha>127</alpha>
       <points>
-        <point x="5.6" y="4.3"/>
+        <point x="5.6" y="4.4"/>
         <point x="5.6" y="4.0"/>
-        <point x="5.6" y="4.15"/>
+        <point x="5.6" y="4.2"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -490,9 +490,9 @@
       <length value="8.0" unit="mm"/>
       <width value="3.0" unit="mm"/>
       <points>
-        <point x="5.6" y="4.4"/>
-        <point x="5.9" y="4.3"/>
-        <point x="5.75" y="4.35"/>
+        <point x="5.7" y="4.4"/>
+        <point x="6.0" y="4.3"/>
+        <point x="5.85" y="4.35"/>
       </points>
       <bodyColor hex="82cffd"/>
       <borderColor hex="5b90b1"/>
@@ -573,8 +573,8 @@
       <alpha>127</alpha>
       <points>
         <point x="5.8" y="4.7"/>
-        <point x="5.8" y="4.4"/>
-        <point x="5.8" y="4.55"/>
+        <point x="5.8" y="4.5"/>
+        <point x="5.8" y="4.6"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
@@ -701,7 +701,7 @@
     <diylc.misc.Label>
       <name>L5</name>
       <point x="6.0" y="3.2"/>
-      <text>Output</text>
+      <text>Inverted output</text>
       <font name="Square721 BT Roman" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
@@ -712,7 +712,7 @@
     <diylc.misc.Label>
       <name>L6</name>
       <point x="7.1" y="4.7"/>
-      <text>Inverted Output</text>
+      <text>Output</text>
       <font name="Square721 BT Roman" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
