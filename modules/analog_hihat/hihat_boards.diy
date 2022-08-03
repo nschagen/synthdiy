@@ -413,7 +413,7 @@
       <shroudColor hex="595959"/>
     </diylc.electromechanical.PinHeader>
     <diylc.semiconductors.DIL__IC>
-      <name>IC1</name>
+      <name>40106</name>
       <alpha>87</alpha>
       <value></value>
       <orientation>DEFAULT</orientation>
@@ -1871,7 +1871,7 @@
       <name>W5</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="2.6" y="4.0"/>
+        <point x="2.4" y="4.1"/>
         <point x="2.8" y="3.9"/>
         <point x="3.2" y="4.3"/>
         <point x="3.8" y="4.3"/>
@@ -2114,7 +2114,7 @@
       <name>W7</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="2.6" y="3.6"/>
+        <point x="2.5" y="3.6"/>
         <point x="2.8" y="3.5"/>
         <point x="3.2" y="3.9"/>
         <point x="3.8" y="3.9"/>
@@ -2192,8 +2192,8 @@
       <name>W10</name>
       <alpha>127</alpha>
       <controlPoints2>
-        <point x="2.6" y="3.3"/>
-        <point x="3.1" y="3.2"/>
+        <point x="2.6" y="5.9"/>
+        <point x="3.3" y="6.1"/>
         <point x="3.3" y="3.7"/>
         <point x="3.8" y="3.8"/>
       </controlPoints2>
@@ -2207,7 +2207,7 @@
       <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.semiconductors.DIL__IC>
-      <name>IC2</name>
+      <name>TL072</name>
       <alpha>65</alpha>
       <value></value>
       <orientation>DEFAULT</orientation>
@@ -2632,11 +2632,11 @@
     </diylc.passive.RadialElectrolytic>
     <diylc.connectivity.HookupWire>
       <name>W11</name>
-      <alpha>127</alpha>
+      <alpha>63</alpha>
       <controlPoints2>
-        <point x="5.4" y="5.7"/>
-        <point x="5.7" y="5.7"/>
-        <point x="5.7" y="5.4"/>
+        <point x="2.4" y="4.2"/>
+        <point x="3.2" y="4.9"/>
+        <point x="4.6" y="5.2"/>
         <point x="6.0" y="5.4"/>
       </controlPoints2>
       <color hex="00ff00"/>
@@ -2694,21 +2694,87 @@
       <value value="100.0" unit="nF"/>
       <voltage>_63V</voltage>
     </diylc.passive.RadialCeramicDiskCapacitor>
+    <diylc.passive.PotentiometerPanel>
+      <name>SIZZLE</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="2.4" y="4.3"/>
+        <point x="2.4" y="4.2"/>
+        <point x="2.4" y="4.1"/>
+      </controlPoints>
+      <resistance value="100.0" unit="K"/>
+      <orientation>_270</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter value="0.3" unit="in"/>
+      <spacing value="0.1" unit="in"/>
+      <lugDiameter value="0.1" unit="in"/>
+      <bodyColor hex="c0c0c0"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>ThroughHole</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.passive.PotentiometerPanel>
+      <name>TONE</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="2.5" y="3.8"/>
+        <point x="2.5" y="3.7"/>
+        <point x="2.5" y="3.6"/>
+      </controlPoints>
+      <resistance value="20.0" unit="K"/>
+      <orientation>_270</orientation>
+      <taper>LIN</taper>
+      <bodyDiameter value="0.3" unit="in"/>
+      <spacing value="0.1" unit="in"/>
+      <lugDiameter value="0.1" unit="in"/>
+      <bodyColor hex="c0c0c0"/>
+      <borderColor hex="808080"/>
+      <nutColor hex="cbd5db"/>
+      <waferColor hex="cd8500"/>
+      <type>ThroughHole</type>
+      <showShaft>false</showShaft>
+      <view>ShaftDown</view>
+    </diylc.passive.PotentiometerPanel>
+    <diylc.connectivity.HookupWire>
+      <name>W12</name>
+      <alpha>127</alpha>
+      <controlPoints2>
+        <point x="2.5" y="3.7"/>
+        <point x="3.1" y="3.7"/>
+        <point x="3.5" y="4.1"/>
+        <point x="3.8" y="5.1"/>
+      </controlPoints2>
+      <color hex="00ff00"/>
+      <pointCount>FOUR</pointCount>
+      <style>SOLID</style>
+      <smooth>true</smooth>
+      <lastUpdatePointIndex>-1</lastUpdatePointIndex>
+      <gauge>_22</gauge>
+      <striped>false</striped>
+      <stripeColor hex="ffff00"/>
+    </diylc.connectivity.HookupWire>
+    <diylc.passive.TrimmerPotentiometer>
+      <name>VR5</name>
+      <alpha>127</alpha>
+      <controlPoints>
+        <point x="5.7" y="3.7"/>
+        <point x="5.7" y="3.8"/>
+        <point x="5.7" y="3.9"/>
+      </controlPoints>
+      <orientation>DEFAULT</orientation>
+      <taper>LIN</taper>
+      <bodyColor hex="ffffe0"/>
+      <borderColor hex="8e8e38"/>
+      <display>NAME</display>
+      <type>VERTICAL_INLINE</type>
+    </diylc.passive.TrimmerPotentiometer>
     <diylc.misc.Label>
       <name>L1</name>
       <point x="2.9" y="5.2"/>
       <text>DECAY POT &amp; VACTROL</text>
-      <font name="Square721 BT Roman" size="14" style="0"/>
-      <color hex="000000"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
-      <name>L2</name>
-      <point x="2.6" y="4.1"/>
-      <text>SIZZLE POT</text>
       <font name="Square721 BT Roman" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
@@ -2750,19 +2816,8 @@
       <orientation>DEFAULT</orientation>
     </diylc.misc.Label>
     <diylc.misc.Label>
-      <name>L6</name>
-      <point x="5.5" y="6.4"/>
-      <text>LED2</text>
-      <font name="Square721 BT Roman" size="14" style="0"/>
-      <color hex="000000"/>
-      <center>false</center>
-      <horizontalAlignment>CENTER</horizontalAlignment>
-      <verticalAlignment>CENTER</verticalAlignment>
-      <orientation>DEFAULT</orientation>
-    </diylc.misc.Label>
-    <diylc.misc.Label>
       <name>L7</name>
-      <point x="2.6" y="3.1"/>
+      <point x="2.6" y="5.8"/>
       <text>OUT</text>
       <font name="Square721 BT Roman" size="14" style="0"/>
       <color hex="000000"/>
@@ -2775,6 +2830,17 @@
       <name>L8</name>
       <point x="5.5" y="5.8"/>
       <text>SIZZLE POT</text>
+      <font name="Square721 BT Roman" size="14" style="0"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L2</name>
+      <point x="5.4" y="6.4"/>
+      <text>LED2</text>
       <font name="Square721 BT Roman" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
