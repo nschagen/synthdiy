@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:fpd="http://www.schaeffer-ag.de"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100mm"
+   height="135mm"
+   viewBox="0 0 100 135"
+   version="1.1"
+   id="svg17811"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="front_panel.svg">
+  <defs
+     id="defs17805" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="244.35513"
+     inkscape:cy="328.29845"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata17808">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1,0,0,-1,-222.42116,131.99897)"
+       fill-rule="evenodd"
+       style="stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g12530">
+      <g
+         transform="translate(227.11524,0.60034834)"
+         fill-rule="evenodd"
+         style="stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+         id="g2268">
+        <path
+           d="m 16.5,71.28 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2234"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 16.5,91.6 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2236"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 16.5,111.92 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2238"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 28,14 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2240"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 16.5,50.96 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2242"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 26,125.569 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2244"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 6,14 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2246"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 6,125.5 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 H 7.6 A 1.6,1.6 0 0 1 6,125.5 v 0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2248"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 27.189,3 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 A 1.6,1.6 0 0 1 27.189,3 v 0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2250"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 7.189,3 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 A 1.6,1.6 0 0 1 7.189,3 v 0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2252"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 17.5,14 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2254"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 27.5,30.64 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2256"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 6,30.64 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2258"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 17,30.64 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2260"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 3,112 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2262"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 31,112 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+           fill="#ffffff"
+           fill-opacity="1"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           fpd:print_element="0"
+           id="path2264"
+           style="stroke:#0000ff;stroke-opacity:1" />
+        <path
+           d="m 39,128.4 a 1,1 0 0 0 1,-1 V 1 A 1,1 0 0 0 39,0 H 1 A 1,1 0 0 0 0,1 v 126.4 a 1,1 0 0 0 1,1 h 38"
+           fill="none"
+           vector-effect="non-scaling-stroke"
+           stroke="#000000"
+           stroke-width="0.1mm"
+           stroke-opacity="1"
+           fpd:visible="front back"
+           id="path2266"
+           style="stroke:#0000ff;stroke-opacity:1" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="31.706797"
+       y="124.71202"
+       id="text6343-3-0-2-7-3-6-9-2-0-3"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6"
+         x="31.706797"
+         y="124.71202"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">OUT</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="7.9436731"
+       y="124.73715"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5"
+         x="7.9436731"
+         y="124.73715"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">CLOSED</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="7.9031763"
+       y="110.48988"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7-3"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5-5"
+         x="7.9031763"
+         y="110.48988"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">OPEN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="18.522486"
+       y="92.889496"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7-3-6"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5-5-2"
+         x="18.522486"
+         y="92.889496"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">LEVEL</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="18.911158"
+       y="71.657692"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7-3-6-9"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5-5-2-1"
+         x="18.911158"
+         y="71.657692"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">TONE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="17.87063"
+       y="50.964588"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7-3-6-9-2"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5-5-2-1-7"
+         x="17.87063"
+         y="50.964588"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">SIZZLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.264583;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       x="17.950541"
+       y="31.198732"
+       id="text6343-3-0-2-7-3-6-9-2-0-3-7-3-6-9-2-0"><tspan
+         sodipodi:role="line"
+         id="tspan6341-6-6-6-5-5-2-1-7-9-6-5-5-2-1-7-9"
+         x="17.950541"
+         y="31.198732"
+         style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.264583;stroke-opacity:1">DECAY</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="-85.914841"
+       y="11.132348"
+       id="text2460-7-1-6-6-8-3-0-8-3"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan2458-5-0-3-8-4-1-6-4-6"
+         x="-85.914841"
+         y="11.132348"
+         style="font-size:6.35px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ANALOG HI-HAT</tspan></text>
+    <g
+       transform="matrix(0.99999999,0,0,-0.99999999,46.04401,122.9092)"
+       fill-rule="evenodd"
+       style="stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g2603">
+      <path
+         d="m 16.5,62.88 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2577"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 16.5,83.2 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2579"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 16.5,103.52 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2581"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 16.5,42.56 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2583"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 17.5,5.6 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2585"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 27.5,22.24 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2587"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 18.5,22.24 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2589"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 4.5,103.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2591"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 32.5,103.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2593"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 4.25,0.6 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2595"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 4.25,17.24 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2597"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 26.25,0.6 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2599"
+         style="stroke:#0000ff;stroke-opacity:1" />
+      <path
+         d="m 39,111.6 a 1,1 0 0 0 1,-1 V 1 A 1,1 0 0 0 39,0 H 1 A 1,1 0 0 0 0,1 v 109.6 a 1,1 0 0 0 1,1 h 38"
+         fill="none"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         id="path2601"
+         style="stroke:#0000ff;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

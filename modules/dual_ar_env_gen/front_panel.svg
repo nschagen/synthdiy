@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:fpd="http://www.schaeffer-ag.de"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="80mm"
+   height="135mm"
+   viewBox="0 0 80 135"
+   version="1.1"
+   id="svg1423"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="front_panel.svg">
+  <defs
+     id="defs1417" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="208.72557"
+     inkscape:cy="349.7601"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1420">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g10218"
+       style="stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.99999998,0,0,-0.99999998,44.531537,155.23883)">
+      <path
+         d="m -23.995171,75.265415 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2858"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -23.995171,100.66541 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2860"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -23.995171,120.98541 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2862"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -23.995171,54.945415 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2864"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -35.595171,149.26542 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2866"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -35.595171,26.765415 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2868"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -35.495171,38.765415 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2870"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -23.395171,149.26542 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2872"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -23.395171,26.765415 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2874"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -21.495171,38.765415 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2876"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -35.495171,137.16542 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2878"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -21.495171,137.16542 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2880"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -32.995171,110.82541 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2882"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -32.995171,65.105415 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2884"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -11.495171,152.16542 a 1,1 0 0 0 1,-1 V 24.765415 a 1,1 0 0 0 -1,-1 h -28 a 1,1 0 0 0 -1,1 V 151.16542 a 1,1 0 0 0 1,1 h 28"
+         fill="none"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         id="path2886"
+         style="fill-rule:evenodd;stroke:#0000ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-36.209846"
+         y="-119.61254"
+         id="text10270"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan10268"
+           x="-36.209846"
+           y="-119.61254"
+           style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ATK</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-35.807335"
+         y="-99.167229"
+         id="text10270-6"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan10268-1"
+           x="-35.807335"
+           y="-99.167229"
+           style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">REL</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-35.732414"
+         y="-73.69207"
+         id="text10270-6-5"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan10268-1-9"
+           x="-35.732414"
+           y="-73.69207"
+           style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">ATK</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         x="-36.006046"
+         y="-53.435966"
+         id="text10270-6-5-4"
+         transform="scale(1,-1)"><tspan
+           sodipodi:role="line"
+           id="tspan10268-1-9-9"
+           x="-36.006046"
+           y="-53.435966"
+           style="font-size:4.23333px;fill:none;stroke:#ff00ff;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">REL</tspan></text>
+    </g>
+    <g
+       id="g10201"
+       style="stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       transform="matrix(0.99999998,0,0,-0.99999998,44.531537,155.23883)">
+      <path
+         d="m 7.976686,75.230849 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path2999"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 7.976686,100.63085 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3001"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 7.976686,120.95085 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3003"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 7.976686,54.910849 a 3.5,3.5 0 1 0 7,0 3.5,3.5 0 1 0 -7,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3005"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -1.023314,110.79085 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3007"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -1.023314,65.070849 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3009"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 8.726686,33.130849 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3011"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -5.273314,132.13085 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3013"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m -5.273314,33.130849 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3015"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 8.726686,132.13085 a 0.5,0.5 0 0 1 0.5,-0.5 h 8.5 a 0.5,0.5 0 0 1 0.5,0.5 v 10 a 0.5,0.5 0 0 1 -0.5,0.5 h -8.5 a 0.5,0.5 0 0 1 -0.5,-0.5 v -10"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path3017"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+      <path
+         d="m 20.476686,143.73085 a 1,1 0 0 0 1,-1 V 33.130849 a 1,1 0 0 0 -1,-1 h -28 a 1,1 0 0 0 -1,1 V 142.73085 a 1,1 0 0 0 1,1 h 28"
+         fill="none"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         id="path3019"
+         style="fill-rule:evenodd;stroke:#1300ff;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:fpd="http://www.schaeffer-ag.de"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="120mm"
+   height="135mm"
+   viewBox="0 0 120 135"
+   version="1.1"
+   id="svg8284"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="psu_front_panel.svg">
+  <defs
+     id="defs8278">
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect6915" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect8223" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect6915-9" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect8226" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect6915-9-6" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect8229" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect6915-2-8-3" />
+    <rect
+       x="90.500717"
+       y="53.489723"
+       width="40.935272"
+       height="13.883335"
+       id="rect8232" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="400"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata8281">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(0.99999998,0,0,-0.99999998,55.583919,121.51754)"
+       fill-rule="evenodd"
+       style="stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       id="g8114">
+      <path
+         d="M 19.4,77.5 A 0.5,0.5 0 0 1 19.9,77 h 10.2 a 0.5,0.5 0 0 1 0.5,0.5 v 8.2 a 0.5,0.5 0 0 1 -0.5,0.5 H 19.9 a 0.5,0.5 0 0 1 -0.5,-0.5 v -8.2"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8092"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 22.5,51.6 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8094"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 22.5,36.6 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8096"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 22.5,21.6 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8098"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 6.5,108.2 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8100"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 40.5,108.2 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8102"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 6.5,6.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8104"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 40.5,6.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8106"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 6.5,81.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8108"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 40.5,81.6 a 1.5,1.5 0 1 0 3,0 1.5,1.5 0 1 0 -3,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path8110"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 49,111.6 a 1,1 0 0 0 1,-1 V 1 A 1,1 0 0 0 49,0 H 1 A 1,1 0 0 0 0,1 v 109.6 a 1,1 0 0 0 1,1 h 48"
+         fill="none"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         id="path8112"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g8178"
+       transform="matrix(0.99999998,0,0,-0.99999998,50.062389,111.03547)"
+       style="stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+      <text
+         xml:space="preserve"
+         id="text6913"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6915);fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         transform="matrix(1,0,0,-1,-132.09608,110.83214)"><tspan
+           x="90.5"
+           y="62.853974"><tspan
+             style="font-size:6.35px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">12V</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text6913-3"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6915-9);fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         transform="matrix(1,0,0,-1,-134.03822,96.486562)"><tspan
+           x="90.5"
+           y="62.853974"><tspan
+             style="font-size:6.35px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">-12V</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text6913-3-0"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6915-9-6);fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         transform="matrix(1,0,0,-1,-129.82849,81.48788)"><tspan
+           x="90.5"
+           y="62.853974"><tspan
+             style="font-size:6.35px;fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">5V</tspan></tspan></text>
+      <text
+         xml:space="preserve"
+         id="text6913-37-97-6"
+         style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;white-space:pre;shape-inside:url(#rect6915-2-8-3);fill:none;fill-opacity:1;stroke:#ff00ff;stroke-width:0.25;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
+         transform="matrix(1,0,0,-1,-120.53888,156.88997)"><tspan
+           x="90.5"
+           y="62.853974"><tspan
+             style="font-size:8.46667px">PSU</tspan></tspan></text>
+      <path
+         d="m -26.213139,106.20313 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7887"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -41.213139,106.13413 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7889"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -26.213139,-16.365872 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7891"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -41.213139,-16.365872 a 1.6,1.6 0 0 1 1.6,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.6,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7893"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -11.213139,-16.365872 a 1.6,1.6 0 0 1 1.5999999,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.5999999,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7895"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -11.213139,106.13413 a 1.6,1.6 0 0 1 1.5999999,-1.6 h 4.8 a 1.6,1.6 0 0 1 1.6,1.6 v 0 a 1.6,1.6 0 0 1 -1.6,1.6 h -4.8 a 1.6,1.6 0 0 1 -1.5999999,-1.6 v 0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7897"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -27.813139,66.384128 a 0.5,0.5 0 0 1 0.5,-0.5 h 10.2 a 0.5,0.5 0 0 1 0.5,0.5 v 8.5 a 0.5,0.5 0 0 1 -0.5,0.5 h -10.2 a 0.5,0.5 0 0 1 -0.5,-0.5 v -8.5"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7899"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -24.713139,50.634128 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7901"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -24.713139,35.634128 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7903"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -24.713139,20.634128 a 2.5,2.5 0 1 0 5,0 2.5,2.5 0 1 0 -5,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7905"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -42.213139,97.234128 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7907"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -8.2131391,97.234128 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7909"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -42.213139,-4.3658723 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7911"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -8.2131391,-4.3658723 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7913"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -42.213139,70.634128 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7915"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m -8.2131391,70.634128 a 3,3 0 1 0 6,0 3,3 0 1 0 -6,0"
+         fill="#ffffff"
+         fill-opacity="1"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         fpd:print_element="0"
+         id="path7917"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         d="m 1.7868609,109.03413 a 1,1 0 0 0 1,-1 V -18.365872 a 1,1 0 0 0 -1,-1 H -46.213139 a 1,1 0 0 0 -1,1 V 108.03413 a 1,1 0 0 0 1,1 H 1.7868609"
+         fill="none"
+         vector-effect="non-scaling-stroke"
+         stroke="#000000"
+         stroke-width="0.1mm"
+         stroke-opacity="1"
+         fpd:visible="front back"
+         id="path7919"
+         style="stroke:#0000ff;stroke-width:1.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
