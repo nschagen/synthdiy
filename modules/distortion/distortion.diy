@@ -968,9 +968,9 @@
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
       <points>
-        <point x="7.1" y="4.7"/>
-        <point x="7.1" y="4.9"/>
-        <point x="7.1" y="4.8"/>
+        <point x="6.8" y="4.8"/>
+        <point x="6.8" y="4.9"/>
+        <point x="6.8" y="4.85"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -996,9 +996,9 @@
       <alpha>127</alpha>
       <length value="0.25" unit="in"/>
       <points>
-        <point x="5.6" y="4.7"/>
-        <point x="5.6" y="4.9"/>
-        <point x="5.6" y="4.8"/>
+        <point x="6.0" y="4.8"/>
+        <point x="6.0" y="4.9"/>
+        <point x="6.0" y="4.85"/>
       </points>
       <bodyColor hex="6b6dce"/>
       <borderColor hex="4a4c90"/>
@@ -1342,6 +1342,63 @@
         <point x="6.9" y="5.1"/>
         <point x="6.9" y="4.7"/>
         <point x="6.9" y="4.9"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffd100"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J7</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="5.6" y="5.0"/>
+        <point x="5.6" y="4.8"/>
+        <point x="5.6" y="4.9"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffd100"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J8</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="0.0" y="0.2"/>
+        <point x="0.0" y="0.0"/>
+        <point x="3.480655548024041E-32" y="0.10000000000000057"/>
+      </points>
+      <bodyColor hex="ffffff"/>
+      <borderColor hex="000000"/>
+      <labelColor hex="000000"/>
+      <leadColor hex="ffd100"/>
+      <display>NAME</display>
+      <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
+      <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
+      <style>SOLID</style>
+    </diylc.connectivity.Jumper>
+    <diylc.connectivity.Jumper>
+      <name>J9</name>
+      <alpha>127</alpha>
+      <points>
+        <point x="7.1" y="5.0"/>
+        <point x="7.1" y="4.8"/>
+        <point x="7.1" y="4.9"/>
       </points>
       <bodyColor hex="ffffff"/>
       <borderColor hex="000000"/>
