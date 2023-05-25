@@ -1642,7 +1642,9 @@
     </diylc.misc.Label>
   </components>
   <groups/>
-  <lockedLayers/>
+  <lockedLayers>
+    <int>2</int>
+  </lockedLayers>
   <lockedComponents/>
   <hiddenLayers/>
   <font name="Square721 BT Roman" size="14" style="0"/>
