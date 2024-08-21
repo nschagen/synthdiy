@@ -109,37 +109,22 @@ void setup() {
 }
 
 // handles debouncing a button
-bool readButtonState(buttonDebounceData btn) {
+bool readButtonState(struct buttonDebounceData  &btn) {
   // read button state
   int reading = digitalRead(btn.buttonPin);
 
   // update time since last change
   if (reading != btn.lastReading) {
     btn.lastDebounceTime = millis();
-  }
-
-  btn.lastReading = reading;
+    btn.lastReading = reading;
+  }  
 
   if ((millis() - btn.lastDebounceTime) > btn.debounceTime) {
 
-    StatusLED(255, 255, 0);
-    delay(30);
-    StatusLED(0, 0, 0); 
-    // reading is stable for some time
+    // reading is stable for some time. Report state change
     if (reading != btn.state) {
       btn.state = reading;
-
-      //if (btn.state == 0) {
-      //  StatusLED(0, 255, 255);
-      //} else {
-      //  StatusLED(255, 255, 0);
-      //}
-      //delay(300);
-      //StatusLED(0, 0, 0); 
-
-      //if (btn.state == 0) {
       return true;
-      //}
     }    
   }
 
@@ -148,9 +133,15 @@ bool readButtonState(buttonDebounceData btn) {
 
 void loop() {
   if (readButtonState(config_btn)) {
-    StatusLED(255, 0, 0);
-    delay(100);
-    StatusLED(0, 0, 0);
+    if (config_btn.state == HIGH) {
+      StatusLED(255, 0, 0);
+      delay(10);
+      StatusLED(0, 0, 0);
+    } else {
+      StatusLED(0, 0, 255);
+      delay(10);
+      StatusLED(0, 0, 0);
+    }
   }
   
     // config
@@ -226,13 +217,13 @@ void loop() {
  if (note_on_count != 0) {
    if ((millis() - trigTimer <= 20) && (millis() - trigTimer > 10)) {
      digitalWrite(GATE_OUT, LOW);
-     //StatusLED(0, 0, 0);
    }
    if ((trigTimer > 0) && (millis() - trigTimer > 20)) {
      digitalWrite(GATE_OUT, HIGH);
-     //StatusLED(255, 128, 0);
    }
  }
+
+// state: default, set_ch1, set_ch2
 
  //-----------------------------midi operation----------------------------
  if (MIDI.read()) {         
@@ -253,7 +244,6 @@ void loop() {
        }
 
        digitalWrite(GATE_OUT, HIGH); //GateHIGH
-       //StatusLED(255, 128, 0);
        OUT_CV(cv[note_no]);//V/OCT LSB for DAC
        OUT_CV2(cv[note_no]);
        break;
@@ -263,7 +253,6 @@ void loop() {
        note_on_count --;
        if (note_on_count == 0) {
          digitalWrite(GATE_OUT, LOW); //GateLOW
-         //StatusLED(0, 0, 0);
        }
        break;
 
@@ -292,8 +281,7 @@ void loop() {
 
      case midi::Stop:
        clock_count = 0;
-       digitalWrite(GATE_OUT, LOW); //GateLOW
-       //StatusLED(0, 0, 0);
+       digitalWrite(GATE_OUT, LOW);
        break;
 
 
