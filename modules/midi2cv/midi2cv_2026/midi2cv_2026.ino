@@ -1,26 +1,29 @@
-#include <MIDI.h>
+#include <MIDI.h> // https://github.com/FortySevenEffects/arduino_midi_library
 #include  <SPI.h>
-#include <debounce.h>
+#include <debounce.h> // https://github.com/kimballa/button-debounce
+#include <SoftwareSerial.h>
 
 MIDI_CREATE_DEFAULT_INSTANCE(); //MIDI
 
-const int SS2 = 8; // secondary DAC SS
 const int CONFIG_BTN = A0; // button input
 const int GATE_OUT = A1; // gate output pin
 const int CLK_OUT = A2; // clock output pin
 const int RESET_OUT = A3; // reset output pin
+
+const int DEBUG_BTN = 2; // dump state button pin
 
 // Status RGB led pins
 const int STATUS_LED_RED_PWM_PIN = 6;
 const int STATUS_LED_GREEN_PWM_PIN = 3;
 const int STATUS_LED_BLUE_PWM_PIN = 5;
 
-
-int note_no = 0;//noteNo=21(C1)～60(C6) total 61
-
 int bend_range = 0;
 int bend_msb = 0;
 int bend_lsb = 0;
+
+int note_no = 0;//noteNo=21(C1)～60(C6) total 61
+
+
 long after_bend_pitch = 0;
 
 byte note_on_count = 0;
@@ -42,6 +45,8 @@ const long cv[61] = {
  2458, 2526, 2594, 2662, 2731, 2799, 2867, 2935, 3004, 3072, 3140, 3209,
  3277, 3345, 3413, 3482, 3550, 3618, 3686, 3755, 3823, 3891, 3959, 4028, 4095
 };
+
+const long SEMITONE_CV = 68;
 
 // A clock pulse takes 5ms
 const uint8_t CLOCK_PULSE_DURATION = 5;
@@ -194,10 +199,31 @@ static void configure(int option, int channel) {
   }
 }
 
+void debugButtonHandler(uint8_t btnId, uint8_t btnState) {
+  if (btnState == BTN_OPEN) {
+    StatusLED(0, 0, 255);
+    delay(100);
+    StatusLED(0, 0, 0);
+    Serial.print("note ");
+    Serial.print(note_no);
+    Serial.println("");
+    Serial.print("note on count ");
+    Serial.print(note_on_count);
+    Serial.println("");
+    Serial.print("trigTimer ");
+    Serial.print(trigTimer);
+    Serial.println("");
+    Serial.print("learnMode ");
+    Serial.print(learnMode);
+    Serial.println("");
+  }
+}
+
 
 static Button shortPressButton(0, shortPressHandler);
 static Button longPressButton(0, longPressHandler);
 
+static Button debugButton(1, debugButtonHandler);
 
 void reset_state() {
   note_on_count = 0;
@@ -228,24 +254,21 @@ void setup() {
   pinMode(STATUS_LED_BLUE_PWM_PIN, OUTPUT);
   
   pinMode(CONFIG_BTN, INPUT_PULLUP);
+  pinMode(DEBUG_BTN, INPUT_PULLUP);
 
   longPressButton.setPushDebounceInterval(1000); 
   
   StatusLED(0, 0, 0);
   MIDI.begin(1);
+  MIDI.turnThruOff();
   
   SPI.begin();
   SPI.setBitOrder(MSBFIRST) ;          // bit order
   SPI.setClockDivider(SPI_CLOCK_DIV4) ;// (16MHz/4)
   SPI.setDataMode(SPI_MODE0) ;         // LOW
 
-
-  digitalWrite(RESET_OUT, HIGH);
-  delay(600); 
-  digitalWrite(RESET_OUT, LOW); 
+  Serial.println("started\n");
 }
-
-
 
 void loop() {
   unsigned long t = millis();
@@ -254,6 +277,9 @@ void loop() {
   int btnState = digitalRead(CONFIG_BTN);
   shortPressButton.update(btnState);
   longPressButton.update(btnState);
+
+  int debugBtnState = digitalRead(DEBUG_BTN);
+  debugButton.update(debugBtnState);
 
   //--- gate retrigger when additional keys are pressed (when not in legato mode) ----------
   if (note_on_count != 0 && !currentConfig.legato) {
@@ -335,13 +361,13 @@ void loop() {
   // CLK  / RST
 
   //-----------------------------midi operation----------------------------
+  int opt = 0;
+  int new_note_no = 0;
   if (MIDI.read()) {
-
-    int new_note_no = 0;
     
     switch (MIDI.getType()) {
     
-      case midi::NoteOn:
+      case midi::NoteOn: {
         note_on_count ++;
         new_note_no = MIDI.getData1() - NOTE_C1;
         
@@ -363,7 +389,7 @@ void loop() {
               trigTimer = millis();
             }
           } else {
-            if (new_note_no < note_no) {
+            if (new_note_no > note_no) {
               note_no = new_note_no;
               trigTimer = millis();
             }
@@ -376,8 +402,8 @@ void loop() {
         }
 
         break;
-      
-      case midi::NoteOff:
+      }
+      case midi::NoteOff: {
           if (note_on_count > 0) {
             note_on_count--;
           }
@@ -388,20 +414,20 @@ void loop() {
           if (learnMode) {
             // call configure() which starts animation and sets state!
             
-            int opt = note_no % 12;
+            opt = note_no % 12;
             if (opt >= 7) opt = 7;
             configure(opt, MIDI.getChannel());
             learnMode = 0;
           }
           break;
-      
-      case midi::ControlChange:
+      }
+      case midi::ControlChange: {
           if (!learnMode) {
             OUT_MOD( MIDI.getData2() << 5);
           }
           break;
-      
-      case midi::Clock:
+      }
+      case midi::Clock: {
           clock_count ++;
           
           if (clock_count >= clock_max) {
@@ -414,8 +440,8 @@ void loop() {
           }
 
           break;
-
-      case midi::Start:
+      }
+      case midi::Start: {
           clock_count = 0;
           digitalWrite(GATE_OUT, LOW);
           digitalWrite(CLK_OUT, LOW);
@@ -425,8 +451,8 @@ void loop() {
             reset_pulse_start_time = millis();   
           }
           break;
-      
-      case midi::Stop:
+      }
+      case midi::Stop: {
           clock_count = 0;
           digitalWrite(GATE_OUT, LOW);
           digitalWrite(CLK_OUT, LOW);
@@ -434,24 +460,26 @@ void loop() {
           digitalWrite(RESET_OUT, HIGH);
           reset_pulse_start_time = millis();   
           break;
-      
-      case midi::PitchBend:
+      }
+      case midi::PitchBend: {
           if (learnMode) break;
-
-          bend_lsb = MIDI.getData1();//LSB
-          bend_msb = MIDI.getData2();//MSB
-          bend_range = bend_msb; //0 to 127
-
-          if (bend_range > 64) {
-            after_bend_pitch = cv[note_no] + cv[note_no] * (bend_range - 64) * 4 / 10000;
-            OUT_CV(after_bend_pitch);
-          }
-          else if (bend_range < 64) {
-            after_bend_pitch = cv[note_no] - cv[note_no] * (64 - bend_range) * 4 / 10000;
-            OUT_CV(after_bend_pitch);
-          }
+  
+          int lsb = MIDI.getData1();          // 0..127
+          int msb = MIDI.getData2();          // 0..127
+          int bend14 = (msb << 7) | lsb;      // 0..16383
+  
+          // Signed bend: -8192..+8191
+          int bend = bend14 - 8192;
+  
+          // Example: +/- 2 semitones over full wheel travel.
+          // semitone_cv must be the CV increment for one semitone.
+          float bend_cv = (bend / 8192.0f) * (2.0f * SEMITONE_CV);
+  
+          float after_bend_pitch = cv[note_no] + bend_cv;
+          OUT_CV(after_bend_pitch);
           break;
       }
+    }
   }
 }
 
