@@ -10,8 +10,6 @@ const int GATE_OUT = A1; // gate output pin
 const int CLK_OUT = A2; // clock output pin
 const int RESET_OUT = A3; // reset output pin
 
-const int DEBUG_BTN = 2; // dump state button pin
-
 // Status RGB led pins
 const int STATUS_LED_RED_PWM_PIN = 6;
 const int STATUS_LED_GREEN_PWM_PIN = 3;
@@ -202,6 +200,12 @@ static void configure(int option, int channel) {
   }
 }
 
+int read_note() {
+  int note = MIDI.getData1() - NOTE_C1;
+  if (note < 0) note = 0;
+  if (note >= 61) note = 60;   
+  return note;
+}
 
 // returns true when active note has changed or when the first note was pressed, false otherwise
 uint8_t handleNoteOn(uint8_t note, uint8_t velocity) {
@@ -285,38 +289,10 @@ uint8_t updateActiveNote() {
   return (note_no != old_note_no);
 }
 
-void debugButtonHandler(uint8_t btnId, uint8_t btnState) {
-  if (btnState == BTN_OPEN) {
-    StatusLED(0, 0, 255);
-    delay(100);
-    StatusLED(0, 0, 0);
-    Serial.print("note ");
-    Serial.print(note_no);
-    Serial.println("");
-    Serial.print("held count ");
-    Serial.print(heldCount);
-    Serial.println("");
-    Serial.print("noteTrigTimer ");
-    Serial.print(noteTrigTimer);
-    Serial.println("");
-    Serial.print("learnMode ");
-    Serial.print(learnMode);
-    Serial.println("");
-  }
-}
 
 
 static Button shortPressButton(0, shortPressHandler);
 static Button longPressButton(0, longPressHandler);
-
-static Button debugButton(1, debugButtonHandler);
-
-int read_note() {
-  int note = MIDI.getData1() - NOTE_C1;
-  if (note < 0) note = 0;
-  if (note >= 61) note = 60;   
-  return note;
-}
 
 void reset_state() {
   heldCount = 0;
@@ -354,12 +330,9 @@ void setup() {
   pinMode(STATUS_LED_BLUE_PWM_PIN, OUTPUT);
   
   pinMode(CONFIG_BTN, INPUT_PULLUP);
-  pinMode(DEBUG_BTN, INPUT_PULLUP);
 
   longPressButton.setPushDebounceInterval(1000); 
   
-  StatusLED(255, 0, 255);
-  delay(100);
   StatusLED(0, 0, 0);  
   MIDI.begin(1);
   MIDI.turnThruOff();
@@ -368,8 +341,6 @@ void setup() {
   SPI.setBitOrder(MSBFIRST) ;          // bit order
   SPI.setClockDivider(SPI_CLOCK_DIV4) ;// (16MHz/4)
   SPI.setDataMode(SPI_MODE0) ;         // LOW
-
-  Serial.println("started\n");
 }
 
 void loop() {
@@ -379,9 +350,6 @@ void loop() {
   int btnState = digitalRead(CONFIG_BTN);
   shortPressButton.update(btnState);
   longPressButton.update(btnState);
-
-  int debugBtnState = digitalRead(DEBUG_BTN);
-  debugButton.update(debugBtnState);
 
   //--- gate retrigger when additional keys are pressed (when not in legato mode) ----------
   if (heldCount != 0 && !currentConfig.legato) {
