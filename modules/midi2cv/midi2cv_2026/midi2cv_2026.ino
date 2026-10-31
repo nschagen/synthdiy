@@ -21,13 +21,16 @@ int bend_range = 0;
 int bend_msb = 0;
 int bend_lsb = 0;
 
-int note_no = 0;//noteNo=21(C1)～60(C6) total 61
+const uint8_t NUM_MIDI_NOTES = 61;
+const uint8_t MAX_HELD_NOTES = 10;
 
+int note_no = 0;//noteNo=21(C1)～60(C6) total 61
+bool noteHeld[NUM_MIDI_NOTES];       // 0 = 21 = C1
+uint8_t heldOrder[MAX_HELD_NOTES];   // chronological list of held note numbers
+uint8_t heldCount = 0;
+unsigned long noteTrigTimer = 0; //for gate ratch
 
 long after_bend_pitch = 0;
-
-byte note_on_count = 0;
-unsigned long trigTimer = 0; //for gate ratch
 
 const uint8_t NOTE_A0 = 21;
 const uint8_t NOTE_C1 = 24;
@@ -101,7 +104,7 @@ struct ModuleConfig {
   uint8_t reset_effect;
 };
 
-const ModuleConfig defaultConfig =  { 1, CFG_NOTE_PRIO_LAST, CFG_LEGATO_OFF, CFG_RESET_STOP };
+const ModuleConfig defaultConfig =  { 1, CFG_NOTE_PRIO_LOW, CFG_LEGATO_OFF, CFG_RESET_STOP };
 ModuleConfig currentConfig = defaultConfig;
 
 // an animation switches between color1 and 2 after 'blink_time' miliseconds and lasts for 'duration'
@@ -199,6 +202,89 @@ static void configure(int option, int channel) {
   }
 }
 
+
+// returns true when active note has changed or when the first note was pressed, false otherwise
+uint8_t handleNoteOn(uint8_t note, uint8_t velocity) {
+  if (velocity == 0) {
+    return handleNoteOff(note, 0);
+  }
+
+  int oldHeldCount = heldCount;
+
+  if (!noteHeld[note]) {
+    if (heldCount < MAX_HELD_NOTES) {
+      heldOrder[heldCount++] = note;
+    } else {
+      // Optional: steal the oldest note
+      removeHeldNote(heldOrder[0]);
+      heldOrder[heldCount++] = note;
+    }
+    noteHeld[note] = true;
+  }
+
+  return updateActiveNote() || (oldHeldCount == 0);
+}
+
+// returns true when active note has changed, false otherwise
+uint8_t handleNoteOff(uint8_t note, uint8_t velocity) {
+  if (noteHeld[note]) {
+    removeHeldNote(note);
+    return updateActiveNote();
+  }
+  return false;
+}
+
+void removeHeldNote(uint8_t note) {
+  noteHeld[note] = false;
+
+  for (uint8_t i = 0; i < heldCount; i++) {
+    if (heldOrder[i] == note) {
+      for (uint8_t j = i; j < heldCount - 1; j++) {
+        heldOrder[j] = heldOrder[j + 1];
+      }
+      heldCount--;
+      break;
+    }
+  }
+}
+
+// updates note_no according to notes held and priority 
+// returns 1 when the active note changed, 0 otherwise
+uint8_t updateActiveNote() {
+  if (heldCount == 0) return 0;
+
+  int old_note_no = note_no;
+
+  switch (currentConfig.note_prio) {
+    case CFG_NOTE_PRIO_LOW: {
+      for (uint8_t i = 0; i < NUM_MIDI_NOTES; i++) {
+        if (noteHeld[i]) {
+          note_no = i;
+          break;
+        }
+      }
+      break;
+    }
+
+    case CFG_NOTE_PRIO_HIGH: {
+      for (int8_t i = NUM_MIDI_NOTES -1; i >= 0; i--) {
+        if (noteHeld[i]) {
+          note_no = i;
+          break;
+        }
+      }
+      break;
+    }
+
+    case CFG_NOTE_PRIO_LAST:
+    default:
+      note_no = heldOrder[heldCount - 1];
+  }
+
+  // did the current note change?
+  return (note_no != old_note_no);
+}
+
 void debugButtonHandler(uint8_t btnId, uint8_t btnState) {
   if (btnState == BTN_OPEN) {
     StatusLED(0, 0, 255);
@@ -207,11 +293,11 @@ void debugButtonHandler(uint8_t btnId, uint8_t btnState) {
     Serial.print("note ");
     Serial.print(note_no);
     Serial.println("");
-    Serial.print("note on count ");
-    Serial.print(note_on_count);
+    Serial.print("held count ");
+    Serial.print(heldCount);
     Serial.println("");
-    Serial.print("trigTimer ");
-    Serial.print(trigTimer);
+    Serial.print("noteTrigTimer ");
+    Serial.print(noteTrigTimer);
     Serial.println("");
     Serial.print("learnMode ");
     Serial.print(learnMode);
@@ -225,9 +311,23 @@ static Button longPressButton(0, longPressHandler);
 
 static Button debugButton(1, debugButtonHandler);
 
+int read_note() {
+  int note = MIDI.getData1() - NOTE_C1;
+  if (note < 0) note = 0;
+  if (note >= 61) note = 60;   
+  return note;
+}
+
 void reset_state() {
-  note_on_count = 0;
-  trigTimer = 0;  
+  heldCount = 0;
+  noteTrigTimer = 0;  
+
+  for (int8_t i = NUM_MIDI_NOTES -1; i >= 0; i--) {
+    noteHeld[i] = 0;
+  }
+  for (int8_t i = MAX_HELD_NOTES -1; i >= 0; i--) {
+    heldOrder[i] = 0;
+  }
   learnMode = 0;
 
   // reset clock / pulse bookkeeping
@@ -258,7 +358,9 @@ void setup() {
 
   longPressButton.setPushDebounceInterval(1000); 
   
-  StatusLED(0, 0, 0);
+  StatusLED(255, 0, 255);
+  delay(100);
+  StatusLED(0, 0, 0);  
   MIDI.begin(1);
   MIDI.turnThruOff();
   
@@ -282,11 +384,11 @@ void loop() {
   debugButton.update(debugBtnState);
 
   //--- gate retrigger when additional keys are pressed (when not in legato mode) ----------
-  if (note_on_count != 0 && !currentConfig.legato) {
-    if ((t - trigTimer <= 20) && (t - trigTimer > 10)) {
+  if (heldCount != 0 && !currentConfig.legato) {
+    if ((t - noteTrigTimer <= 20) && (t - noteTrigTimer > 10)) {
       digitalWrite(GATE_OUT, LOW);
     }
-    if ((trigTimer > 0) && (t - trigTimer > 20)) {
+    if ((noteTrigTimer > 0) && (t - noteTrigTimer > 20)) {
       digitalWrite(GATE_OUT, HIGH);
     }
   }
@@ -363,61 +465,67 @@ void loop() {
   //-----------------------------midi operation----------------------------
   int opt = 0;
   int new_note_no = 0;
+  int released_note_no = 0;
+  int oldHeldCount = 0;
+  
   if (MIDI.read()) {
     
     switch (MIDI.getType()) {
     
       case midi::NoteOn: {
-        note_on_count ++;
-        new_note_no = MIDI.getData1() - NOTE_C1;
-        
-        if (new_note_no < 0) {
-          new_note_no = 0;
-        }
-        else if (new_note_no >= 61) {
-          new_note_no = 60;
-        }
- 
-        if (note_on_count == 1 || currentConfig.note_prio == CFG_NOTE_PRIO_LAST) {
-          note_no = new_note_no;
-          trigTimer = millis();
-        } else {
-          // trigTimer must only be set when a note overrides the previous one based on priority
-          if (currentConfig.note_prio == CFG_NOTE_PRIO_LOW) {
-            if (new_note_no < note_no) {
-              note_no = new_note_no;
-              trigTimer = millis();
-            }
-          } else {
-            if (new_note_no > note_no) {
-              note_no = new_note_no;
-              trigTimer = millis();
-            }
+        new_note_no = read_note();
+        oldHeldCount = heldCount;
+
+        if (handleNoteOn(new_note_no, MIDI.getData2())) {
+          // Note pressed, released or active note has changed!
+
+          // handleNoteOn may process noteOn events with velocity=0, which are handled as noteOff
+          // therefore, we compare oldHeldCount to heldCount to 
+          // distinguish NoteOn from NoteOff and also handle a heldCount==0 case.
+          
+          OUT_CV(cv[note_no]);
+                        
+          if (heldCount > oldHeldCount && !learnMode) {
+            // New note pressed    
+            noteTrigTimer = millis();
+            digitalWrite(GATE_OUT, HIGH);   
+          } 
+
+          if (heldCount == 0) {
+            // last note is released. 
+            digitalWrite(GATE_OUT, LOW); 
+  
+            if (learnMode) {
+              // call configure() which starts animation and sets state!
+              opt = note_no % 12;
+              if (opt >= 7) opt = 7;
+              configure(opt, MIDI.getChannel());
+              learnMode = 0;
+            }   
           }
         }
-
-        if (!learnMode) {
-          digitalWrite(GATE_OUT, HIGH); 
-          OUT_CV(cv[note_no]);        
-        }
-
         break;
       }
       case midi::NoteOff: {
-          if (note_on_count > 0) {
-            note_on_count--;
-          }
-          if (note_on_count == 0) {
-            digitalWrite(GATE_OUT, LOW); 
+          released_note_no = read_note();
+
+          if (handleNoteOff(released_note_no, MIDI.getData2())) {
+            // note released but changing to other
+            OUT_CV(cv[note_no]);              
           }
 
-          if (learnMode) {
-            // call configure() which starts animation and sets state!
-            
-            opt = note_no % 12;
-            if (opt >= 7) opt = 7;
-            configure(opt, MIDI.getChannel());
-            learnMode = 0;
+          if (heldCount == 0) {
+            // last note is released. 
+            digitalWrite(GATE_OUT, LOW); 
+
+            if (learnMode) {
+              // call configure() which starts animation and sets state!
+              
+              opt = note_no % 12;
+              if (opt >= 7) opt = 7;
+              configure(opt, MIDI.getChannel());
+              learnMode = 0;
+            }   
           }
           break;
       }
